@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>피보나치 수열</title>
+</head>
+<body>
+	<script type="text/javascript">
+	function fibo(n)
+	{
+		if (n<=2)
+			return 1;
+		else
+			return fibo(n-1) + fibo(n-2);
+	}
+	</script>
+</body>
+</html>

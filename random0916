@@ -1,0 +1,32 @@
+<html>
+<body>
+<script type = "text/javascript">
+
+	var arr = new Array(10);
+	for(var i=0; i < num; i++){
+		arr = number();
+		for(var j=0; j<arr.length; j++){
+			document.write("result").value += arr[j] + "";
+		}
+}
+
+	function number(){
+		var arr = new Array(100);
+		var arrnum = new Array(10);
+		for(var i=0; i<100; i++){
+			arr[i] = i+1;
+		}
+	} 
+
+/*array = [1,2,3,4,5]
+	for(var in array){
+	array.sort(function){
+	return Math.random();
+	};
+var ego = array.slice(0,10);
+arert(ego)
+*/
+</script>
+
+</body>
+</html>
